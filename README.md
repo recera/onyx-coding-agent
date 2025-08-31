@@ -1,6 +1,6 @@
 # Onyx AI Coding TUI
 
-A sophisticated Terminal User Interface (TUI) for an AI-powered coding assistant that can read, write, edit, search, and run commands in your projects. Built with Go (Bubbletea + Lipgloss) for the frontend and TypeScript (AI SDK) for the AI agent backend.
+TS AI coding agent with AI SDK. Go TUI. Go graph builder package that I pasted in from another project. Gives Agent a run_cypher tool for seeing complex relationships across a codebase.
 
 ## Features
 
