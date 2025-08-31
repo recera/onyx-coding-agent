@@ -59,7 +59,7 @@ This deep understanding of your code allows the AI agent to answer complex quest
 
 2. **Run the installation script:**
    ```bash
-   cd onyx-tui
+   cd onyx-coding-agent
    ./install.sh
    ```
 
@@ -80,7 +80,7 @@ This deep understanding of your code allows the AI agent to answer complex quest
 If you want to run the TUI for development without installing it globally, you can use the `launch.sh` script. This script compiles both the Go TUI and the TypeScript agent and then runs the application.
 
 ```bash
-cd onyx-tui
+cd onyx-coding-agent
 ./launch.sh
 ```
 This is the recommended way to run the TUI while making changes to the code.
@@ -161,7 +161,7 @@ Extract content from a URL.
 ## Project Structure
 
 ```
-onyx-tui/
+onyx-coding-agent/
 ├── agent/                  # TypeScript AI agent
 │   ├── src/
 │   │   └── agent.ts       # Main agent logic with AI SDK
@@ -207,7 +207,7 @@ The TUI and agent communicate via JSON messages over stdio:
 
 ### Issue: TUI doesn't start
 **Solution**: Check the log files:
-- `onyx-tui.log`: TUI logs
+- `onyx-coding-agent.log`: TUI logs
 - `agent-error.log`: Agent stderr output
 
 ### Issue: Agent not responding
